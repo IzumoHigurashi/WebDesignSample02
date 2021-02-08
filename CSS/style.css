@@ -1,0 +1,98 @@
+
+body {
+ font-family: "メイリオ";
+ height: 2000px;
+}
+
+header {
+  position: fixed;
+  /*基準を画面の左上に*/
+  top: 0;
+  left: 0;
+  /*余白が入らないように*/
+  margin: 0;
+  /*以下装飾*/
+  width: 100%;
+  background-color: #ffffff;
+  height: 75px;
+  z-index: 20;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+  height: 75px;
+  padding: 15px 0px;
+}
+
+.header-img {
+  width: 125px;
+  height: 44px;
+}
+
+.inner p {
+  display: inline-block;
+  position: relative;
+  bottom: -10px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.inner-right {
+  text-align: center;
+}
+
+.header-button {
+  height: 45px;
+  line-height: 45px;
+  background-color: #da6b64;
+  color: #ffffff;
+  padding: 0px 40px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.main-key {
+  background-image: url("../img/main.jpg");
+  margin-top: 75px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+
+.key-flame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform : translate(-50%,-50%);
+  text-align: center;
+}
+
+.key-flame p {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.key-text-main {
+  line-height: 50px;
+  font-size: 28px;
+  margin: 0;
+}
+
+.key-text-sub {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.key-img {
+  width: 320px;
+  height: 110px;
+}
