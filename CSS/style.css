@@ -96,3 +96,42 @@ header {
   width: 320px;
   height: 110px;
 }
+
+.conversion {
+  background-color: #ebb94d;
+}
+
+.conversion-inner {
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.conversion-text {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.conversion-emphasis {
+  letter-spacing: 3px;
+  color: #c7254E;
+  background-color: #f9f2f4;
+  display: inline;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 2px 4px;
+}
+
+.conversion-button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin: 30px 0px;
+  padding: 20px 300px;
+  border-radius: 50px;
+  background-color: #da6b64;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
