@@ -1,7 +1,7 @@
 
 body {
  font-family: "メイリオ";
- height: 2000px;
+ height: 10000px;
 }
 
 header {
@@ -122,6 +122,10 @@ header {
   padding: 2px 4px;
 }
 
+.conversion-button {
+  text-align: center;
+}
+
 .conversion-button a {
   color: #ffffff;
   text-decoration: none;
@@ -135,3 +139,164 @@ header {
   letter-spacing: 2px;
 }
 
+.conversion-text02 {
+  color: #ffffff;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.conversion-link {
+  text-align: center;
+}
+
+.conversion-link li {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  margin: 5px;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.conversion-twitter {
+  background-color: #1b95e0;
+}
+
+.conversion-good {
+  background-color: #4267b2;
+}
+
+.conversion-share {
+  background-color: #4267b2;
+}
+
+.conversion-link a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.about {
+  background-image: url("../img/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  z-index: 0;
+  position: relative;
+}
+
+.about-inner {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.about-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px 20px;
+  position: relative;
+  width: 820px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+
+.about-title::before, .about-title::after {
+  content: ' ';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.about-title::before {
+	border-left: solid 3px #ebb94d;
+	border-top: solid 3px #ebb94d;
+	top: 0;
+	left: 0;
+}
+
+.about-title::after {
+	border-right: solid 3px #ebb94d;
+	border-bottom: solid 3px #ebb94d;
+	bottom: 0;
+	right: 0;
+}
+
+.about-text {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.about-text span {
+  font-weight: bold;
+  background-color: #ebb94d;
+  background: linear-gradient(to bottom, #ffffff 70%, #ebb94d 20%);
+}
+
+
+.about-more {
+  background-color: #fef5e0;
+  text-align: center;
+  padding: 30px;
+  margin-top: -30px;
+}
+
+.about-info {
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+.about-info p {
+  text-align: center;
+  background-color: #ebb94d;
+  color: #FFFFFF;
+  margin: 0;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px 20px;
+  position: relative;
+  width: 820px;
+  margin: 0 auto;
+}
+
+.about-more-text {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.about-more-skills {
+  width: 1170px;
+  border: 2px solid #ebb94d;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.more-skills-text {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.more-skills-inner {
+  display: inline-block;
+  margin: 10px 10px;
+  width: 150px;
+  font-size: 12px;
+}
