@@ -175,6 +175,7 @@ header {
 .conversion-link a {
   color: #FFFFFF;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .about {
@@ -196,7 +197,7 @@ header {
   font-weight: bold;
   padding: 20px 20px;
   position: relative;
-  width: 820px;
+  max-width: 820px;
   margin: 0 auto;
   letter-spacing: 2px;
 }
@@ -280,7 +281,7 @@ header {
 
 
 .about-more-skills {
-  width: 1170px;
+  max-width: 1170px;
   border: 2px solid #ebb94d;
   border-radius: 2px;
   background-color: #FFFFFF;
@@ -299,4 +300,85 @@ header {
   margin: 10px 10px;
   width: 150px;
   font-size: 12px;
+}
+
+
+.about-second {
+  background-image: url("../img/aboutsecond.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-second-inner {
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.about-second-text {
+  font-size: 28px;
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.about-second-textx {
+  font-size: 20px;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: -10px;
+}
+
+.about-second-textx span {
+  color: #ebb94d;
+
+}
+
+.about-second-info {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.about-second-info div {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  background-color: #FFFFFF;
+  margin: 10px 10px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.second-info-title {
+  background-color: #ebb94d;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.second-info-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+.aboutthird {
+  background-color: #016ea9;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.aboutthird p {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.aboutthird span {
+  color: #ebb94d;
 }
